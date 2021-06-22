@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Cell from './Cell';
 import Rules from './Rules';
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d35cec... Game final revision
 import './Game.css';
 
 const colors = ['#ee964b', '#277da1', '#83c5be', '#eec5be', '#fad209', '#e44548', '#90be6d', '#7f4f24']
@@ -292,10 +288,6 @@ class Game extends Component {
             newPlayerCell = (this.state.gamePiecesBlack.filter(p => p.id === newPlayer))[0].position
         }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d35cec... Game final revision
         this.setState({
             availableCells: '',
             blackTurn: !this.state.blackTurn,
