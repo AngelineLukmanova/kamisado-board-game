@@ -1,0 +1,62 @@
+.Game-board {
+    margin: 1.5em auto;
+    box-shadow: 0 0 50px #fff, -10px 0 80px rgba(233, 231, 213, 0.808), 10px 0 80px rgb(220, 223, 188); 
+}
+
+.Game-name {
+    font-family: 'Reggae One', cursive;
+    font-size: 4em;
+    color: wheat;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
+.neon-orange {
+    color: #e09664;
+    font-size: 80px;
+    text-shadow: 0 0 3vw #f40a35;
+    animation: neon-orange 1s ease infinite;
+    -moz-animation: neon-orange 1s ease infinite;
+    -webkit-animation: neon-orange 1s ease infinite;
+}
+  
+.Game-over:hover {
+    pointer-events: none;
+}  
+
+.Game-btn{
+ width: 45%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin: 0 auto;
+}
+
+.Game button{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #e09664;
+    background-color: #641b2ac9;
+    border-radius: 5%;
+    border-style: none;
+    padding: 0.3em 1.5em;
+    margin-top: 0.3em;
+}
+
+button:disabled{
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+.Game-winner-msg{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 7.7em;
+    font-weight: 600;
+    color: #f3f0f0;
+    text-shadow: 0 0 3vw #f40a35;
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}

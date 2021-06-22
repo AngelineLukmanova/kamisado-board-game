@@ -1,0 +1,22 @@
+.Cell i{
+    font-size: 3.5em;
+  }
+  
+  .w{
+    color: rgba(255, 255, 255, 0.911);
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.609);
+    padding: 2px;  
+  }
+
+  .b{
+    color: rgba(0, 0, 0, 0.842);
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.609); 
+  }
+
+.active{
+  box-shadow: 0 0 0px #fff, -10px 0 30px #f0f, 10px 0 30px #0ff;
+}
+
