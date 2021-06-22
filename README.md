@@ -1,5 +1,8 @@
 # Kamisado board game app
 
+## Deployed on Netlify and accessible via the following link:
+https://kamisado-board-game.netlify.app/
+
 ## Description
 Kamisado is an abstract strategy board game for two players that's played on an 8x8 multicoloured board. Each player controls a set of eight tower pieces. Each player's set of towers contains a tower to match each of the colours that appear on the squares of the board. The objective of the game is to get one of your towers to the opponent's 'home row'.\
 Game author: Peter Burley
